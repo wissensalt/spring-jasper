@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://db:5432/spring_jasper_db
+    username: postgres
+    password: pgadmin
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://db:5432/spring_jasper_db
+    driver-class-name: org.postgresql.Driver
+    default-schema: public
+    user: postgres
+    password: pgadmin
